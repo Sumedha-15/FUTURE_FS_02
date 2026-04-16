@@ -1,4 +1,4 @@
-#  Mini CRM System
+# 🚀 Mini CRM System
 
 A simple **Client Lead Management System** built using:
 
@@ -9,7 +9,7 @@ A simple **Client Lead Management System** built using:
 
 ---
 
-##  Features
+## ✨ Features
 
 * ➕ Add new leads
 * 📋 View all leads
@@ -55,9 +55,8 @@ Open `frontend/index.html` in browser
 ---
 
 ## 📸 Project Preview
+
 ![Project Screenshot](frontend/ss.png)
-
-
 
 ---
 
