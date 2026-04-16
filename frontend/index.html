@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mini CRM</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Client Lead Management</h1>
+<p>Manage your client leads efficiently </p>
+
+<form id="leadForm">
+  <input type="text" id="name" placeholder="Name" required>
+  <input type="email" id="email" placeholder="Email" required>
+
+  <select id="source" required>
+    <option value="">Select Source</option>
+    <option value="portfolio">Portfolio</option>
+    <option value="linkedin">LinkedIn</option>
+    <option value="instagram">Instagram</option>
+    <option value="referral">Referral</option>
+  </select>
+
+  <input type="text" id="notes" placeholder="Notes">
+  <button type="submit">Add Lead</button>
+</form>
+
+<h2>Leads</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Email</th>
+      <th>Source</th>
+      <th>Status</th>
+      <th>Notes</th>
+      <th>Actions</th>
+    </tr>
+  </thead>
+  <tbody id="leadTable"></tbody>
+</table>
+
+<footer>
+  <p>© 2026 Mini CRM | Built by Sumedha</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
