@@ -1,7 +1,8 @@
 const form = document.getElementById("leadForm");
 const table = document.getElementById("leadTable");
 
-const API_URL = "http://localhost:5000/api/leads";
+// ✅ UPDATED BACKEND URL
+const API_URL = "https://crm-backend-zoxw.onrender.com/api/leads";
 
 
 async function loadLeads() {
